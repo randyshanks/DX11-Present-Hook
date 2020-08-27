@@ -37,10 +37,10 @@ inline void Main(HMODULE hMod)
 		/* Allocate a console window to the target process */
 		AllocConsole();
 
-		/* Set the stdout to our allocated console window */
+		/* Set output to our allocated console window */
 		freopen("CONOUT$", "w", stdout);
 
-		/* Set the stdin to our allocated console window */
+		/* Set input to our allocated console window */
 		freopen("CONIN$", "r", stdin);
 	}
 
