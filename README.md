@@ -1,5 +1,5 @@
-# Universal-Present-Hook
-Universal DX11 Present Hook
+# DX11 Present Hook
+DX11 Present Hook using kiero with ImGui implementation.
 
 Vendors
 - ImGui https://github.com/ocornut/imgui
